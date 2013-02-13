@@ -33,13 +33,18 @@
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
                         <asp:MenuItem Text="Student" Value="Student">
-                            <asp:MenuItem NavigateUrl="~/Students/Default.aspx" Text="Student Home" 
+                            <asp:MenuItem NavigateUrl="~/Students/Default.aspx" Text="All About Your Clicker" 
                                 Value="Student Home"></asp:MenuItem>
                             <asp:MenuItem NavigateUrl="~/Students/StudentSettings.aspx" 
-                                Text="Student Settings" Value="Student Settings"></asp:MenuItem>
+                                Text="ResponseWare" Value="Student Settings"></asp:MenuItem>
+                            <asp:MenuItem Text="Registering Your Clicker" Value="Registering Your Clicker"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="Faculty" Value="Faculty">
-                            <asp:MenuItem Text="Faculty Home" Value="Faculty Home"></asp:MenuItem>
+                            <asp:MenuItem Text="Downloads" Value="Faculty Home"></asp:MenuItem>
+                            <asp:MenuItem Text="Basics" Value="Basics"></asp:MenuItem>
+                            <asp:MenuItem Text="Participant Lists" Value="Participant Lists"></asp:MenuItem>
+                            <asp:MenuItem Text="Results Manager" Value="Results Manager"></asp:MenuItem>
+                            <asp:MenuItem Text="Gradebook" Value="Gradebook"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
                     </Items>
