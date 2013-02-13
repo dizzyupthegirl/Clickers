@@ -14,7 +14,7 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    MIAMI UNIVERISYTY CLICKERS
+                    MIAMI UNIVERSITY CLICKERS
                 </h1>
             </div>
             <div class="loginDisplay">
@@ -54,7 +54,7 @@
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 <p>
-                    This site is in development stages for the Miami University Clicks through 
+                    This site is in development stages for the Miami University Clickers through 
                     Turning Technologies</p>
             </asp:ContentPlaceHolder>
         </div>
