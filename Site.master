@@ -32,19 +32,19 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem Text="Student" Value="Student">
-                            <asp:MenuItem NavigateUrl="~/Students/Default.aspx" Text="All About Your Clicker" 
+                        <asp:MenuItem Text="Student" Value="Student" NavigateUrl="~/Students/Default.aspx">
+                            <asp:MenuItem NavigateUrl="~/Students/AboutYourClicker.aspx" Text="All About Your Clicker" 
                                 Value="Student Home"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Students/StudentSettings.aspx" 
+                            <asp:MenuItem NavigateUrl="~/Students/ResponseWare.aspx" 
                                 Text="ResponseWare" Value="Student Settings"></asp:MenuItem>
-                            <asp:MenuItem Text="Registering Your Clicker" Value="Registering Your Clicker"></asp:MenuItem>
+                            <asp:MenuItem Text="Registering Your Clicker" Value="Registering Your Clicker" NavigateUrl="~/Students/Registering.aspx"></asp:MenuItem>
                         </asp:MenuItem>
-                        <asp:MenuItem Text="Faculty" Value="Faculty">
-                            <asp:MenuItem Text="Downloads" Value="Faculty Home"></asp:MenuItem>
-                            <asp:MenuItem Text="Basics" Value="Basics"></asp:MenuItem>
-                            <asp:MenuItem Text="Participant Lists" Value="Participant Lists"></asp:MenuItem>
-                            <asp:MenuItem Text="Results Manager" Value="Results Manager"></asp:MenuItem>
-                            <asp:MenuItem Text="Gradebook" Value="Gradebook"></asp:MenuItem>
+                        <asp:MenuItem Text="Faculty" Value="Faculty" NavigateUrl="~/Faculty/Default.aspx">
+                            <asp:MenuItem Text="Downloads" Value="Faculty Home" NavigateUrl="~/Faculty/Downloads.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Basics" Value="Basics" NavigateUrl="~/Faculty/Basics.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Participant Lists" Value="Participant Lists" NavigateUrl="~/Faculty/ParticipantLists.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Results Manager" Value="Results Manager" NavigateUrl="~/Faculty/ResultsManager.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Gradebook" Value="Gradebook" NavigateUrl="~/Faculty/Gradebook.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
                     </Items>
