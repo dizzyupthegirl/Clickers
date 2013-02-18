@@ -7,5 +7,6 @@
     <h4>WELCOME</h4>
                     This site is in development stages for the Miami University Clickers through 
                     Turning Technologies</p>
+                    <h3>What questions do YOU have?</h3>
 </asp:Content>
 
