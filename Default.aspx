@@ -4,6 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
     <p>
+    <h4>WELCOME</h4>
                     This site is in development stages for the Miami University Clickers through 
                     Turning Technologies</p>
 </asp:Content>

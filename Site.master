@@ -15,6 +15,8 @@
             <div class="title">
                 <h1>
                     MIAMI UNIVERSITY CLICKERS
+                    <img alt="Turning Technologies Logo" 
+                        src="http://www.turningtechnologies.com/images/turningtech_logo.png" />
                 </h1>
             </div>
             <div class="loginDisplay">
@@ -54,8 +56,10 @@
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 <p>
-                    This site is in development stages for the Miami University Clickers through 
-                    Turning Technologies</p>
+                    Welcome!</p>
+                <p>
+                    This site is for the purpose of spreading information about clickers. Here at 
+                    Miami University, we use Turning Technologies as our vendor for clickers.</p>
             </asp:ContentPlaceHolder>
         </div>
         <div class="clear">
