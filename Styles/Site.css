@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6
 {
     font-size: 1.5em;
     color: #CE1126;
-    font-variant: small-caps;
     text-transform: none;
     font-weight: 200;
     margin-bottom: 0px;
@@ -53,11 +52,13 @@ h1
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-
+/* This heading will be for answers*/
 h2
 {
-    font-size: 1.5em;
-    font-weight: 600;
+    color:Red;
+    font-family: Calibri;
+    font-size: 1.2em;
+    
 }
 /*This heading will be for questions*/
 h3
