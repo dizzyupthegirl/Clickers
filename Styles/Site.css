@@ -5,7 +5,7 @@ body
 {
     background: #b6b7bc;
     font-size: .80em;
-    /*font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;*/
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     color: #CE1126;
@@ -63,7 +63,7 @@ h2
 h3
 {
     font-family: Verdana;
-    font-size: xx-small;
+    font-size: medium;
     color: Black;
 }
 /*This heading will be for titles*/

@@ -16,7 +16,7 @@
         first, an NXT is newer and allows for easier polling in some situations, such as 
         Self Paced testing. The second, an XR, has been the university standard for a 
         while now and is the more common model. The receiver is what you&#39;ll plug into 
-        the computer to allow students to answer questions with their clickers.
+        the computer to allow students to answer questions with their clickers.</h2>
     <h4> <u>Channels</h4></u>
         <h3>What do you mean "channel"?</h3>
         <h2> 
