@@ -6,10 +6,9 @@
 <h4>
         <u>Your Clicker</u></h4>
     <p>
-        <img src="http://www.ts.vcu.edu/nxt.jpg" style="height: 222px; width: 136px" /><img 
+        <img src="http://www.ts.vcu.edu/nxt.jpg" alt="NXT Clicker" style="height: 222px; width: 136px" /><img 
             src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBd6h3y7Pgy80WKR6sD9yaogiGKOBOriHyw_64xKpeys4FgW4LLg" 
-            style="height: 222px; width: 131px" /><img 
-            src="http://intl.turningtechnologies.com/images/Hardware_Solutions/rf_receiver.jpg" /></p>
+            alt="XR Clicker" style="height: 222px; width: 131px" /></p>
     <h2> 
         These are the devices you&#39;ll be working with. There are two types of clickers 
         shown, it is possible for you to have either one of these models. The 
@@ -20,7 +19,7 @@
 
 
     <h4><u>Registering Your Clicker on Niihka</u></h4>
-    <h3>Each clicker needs to be registered on Niihka EACH SEMESTER.
+    <h2>Each clicker needs to be registered on Niihka EACH SEMESTER.
     <br />
     The process to register is as follows:
     <br />
@@ -31,8 +30,8 @@
      <img src="../Faculty/side.JPG" alt="Side menu in Niihka" 
         style="height: 253px; width: 224px" />
      <br />
-    3. You'll have two options at the top of the page here, Response Device or ResponseWare. If you are using one of 
-     the devices pictured at the top of this page, click Response Device  
+    3. You'll have two options at the top of the page here, ResponseCard or ResponseWare. If you are using one of 
+     the devices pictured at the top of this page, click Response Card
      <br />
      <img src="../Faculty/device.JPG" alt="Response Device" 
         style="height: 300px; width: 893px" />
@@ -47,15 +46,31 @@
     5.	Students have the option of registering for one individual class or all the classes that they are enrolled in and will be using Turning Point
     <br />
     <img src="../Faculty/deviceid.JPG" alt="Where To Enter your Device ID" 
-        style="height: 216px; width: 584px" />
+        style="height: 216px; width: 584px" /></h2>
     <h4> <u>Setting the Channel</u></h4>
         <h3>What do you mean "channel"?</h3>
         <h2> 
-        For the hardware to work properly, it must be set to the channel assigned to the room you're in. If you choose your own channel, there's a 
-        chance that a room nearby may already be using that channel and you could pick up responses from their class. You set the channel on the receiver through
-        Turning Point, and then the students can set the channel on their device to the channel you set the receiver to. (See Student: All About Your Clicker for 
-        information on how to set the channel on clickers).
-        *****ADD SCREEN SHOT STEP BY STEP PROCESS HERE*******</h2>
+        Every room on campus is assigned a specifc channel, that way we ensure there is no over lap in close by rooms having the same channel,
+        and thus eliminating teh possibility of one professor picking up another classes responses. Your professor will tell you teh channel, or it will be 
+        posted somewhere around your classroom. 
+        </h2>
+    <h2> <br />
+        To set your channel:
+        <br />
+        <i>(XR)</i> 
+        <br />
+        1. Hit any button on your clicker. 
+        <br />
+        2. You will be prompted to change your channel, hit 'YES'
+        <br />
+        3. Enter the new channel, and hit 'ENTER'
+        <br />
+        <i>(NXT)</i>
+        <br />
+        1. Hit the button on the left side of your clicker that features a TV like icon, labeled "Channel"
+        <br />
+        2. Enter the new channel number, and hit the top right button for 'OK'
+      </h2>
        
     <p>
         &nbsp;</p>

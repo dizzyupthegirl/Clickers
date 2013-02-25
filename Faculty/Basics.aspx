@@ -6,10 +6,10 @@
     <h4>
         <u>The Hardware</u></h4>
     <p>
-        <img src="http://www.ts.vcu.edu/nxt.jpg" style="height: 222px; width: 136px" /><img 
+        <img src="http://www.ts.vcu.edu/nxt.jpg" alt="NXT Clicker" style="height: 222px; width: 136px" /><img 
             src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBd6h3y7Pgy80WKR6sD9yaogiGKOBOriHyw_64xKpeys4FgW4LLg" 
-            style="height: 222px; width: 131px" /><img 
-            src="http://intl.turningtechnologies.com/images/Hardware_Solutions/rf_receiver.jpg" /></p>
+            alt="XR Clicker"style="height: 222px; width: 131px" /><img 
+            src="http://intl.turningtechnologies.com/images/Hardware_Solutions/rf_receiver.jpg" alt="Receiver" /></p>
     <h2> 
         These are the devices you&#39;ll be working with. There are two types of clickers 
         shown, it is possible for students to have either one of these models. The 
