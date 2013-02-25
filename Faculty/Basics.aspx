@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
     <h4>
-        <u>The Hardware</h4></u>
+        <u>The Hardware</u></h4>
     <p>
         <img src="http://www.ts.vcu.edu/nxt.jpg" style="height: 222px; width: 136px" /><img 
             src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBd6h3y7Pgy80WKR6sD9yaogiGKOBOriHyw_64xKpeys4FgW4LLg" 
@@ -17,7 +17,7 @@
         Self Paced testing. The second, an XR, has been the university standard for a 
         while now and is the more common model. The receiver is what you&#39;ll plug into 
         the computer to allow students to answer questions with their clickers.</h2>
-    <h4> <u>Channels</h4></u>
+    <h4> <u>Channels</u></h4>
         <h3>What do you mean "channel"?</h3>
         <h2> 
         For the hardware to work properly, it must be set to the channel assigned to the room you're in. If you choose your own channel, there's a 
