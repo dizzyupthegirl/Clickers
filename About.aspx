@@ -8,6 +8,9 @@
         About
     </h2>
     <p>
-        Put content here.
+        This site is for the purpose of spreading inforamtion about using Turning Point and clickers in classrooms.
+        We aim to include as much information as we can, so that you as a user fully understand all the 
+        possibilities of the technology. If you feel there is something we don't cover here, that you'd like to know more about, feel free
+        to e-mail us at tpintern@miamioh.edu
     </p>
 </asp:Content>
