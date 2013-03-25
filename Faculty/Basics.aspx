@@ -3,6 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+    Completely new to clickers? Please download, print, and fill out the instructor kit form located <a href="Documents/Instructor Kit Form.docx" target="blank"/>here</a>
+    <br /> In addtion, before beginning to look over the basics page, you'll want to download the software, which can be found on our <a href="Downloads.aspx">Downloads</a> page.
     <h4>
         <u>The Hardware</u></h4>
     <p>
