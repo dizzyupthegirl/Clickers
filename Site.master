@@ -40,6 +40,8 @@
                             <asp:MenuItem NavigateUrl="~/Students/ResponseWare.aspx" 
                                 Text="ResponseWare" Value="Student Settings"></asp:MenuItem>
                             <asp:MenuItem Text="Registering Your Clicker" Value="Registering Your Clicker" NavigateUrl="~/Students/Registering.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Students/FAQ.aspx" Text="FAQ" Value="FAQ">
+                            </asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="Faculty" Value="Faculty" NavigateUrl="~/Faculty/Default.aspx">
                             <asp:MenuItem Text="Downloads" Value="Faculty Home" NavigateUrl="~/Faculty/Downloads.aspx"></asp:MenuItem>
