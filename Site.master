@@ -7,6 +7,12 @@
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .menu
+        {
+            margin-bottom: 4px;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -14,9 +20,11 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    MIAMI UNIVERSITY CLICKERS
+
+                    <img alt="MU" 
+                        src="siteLogo.jpg" />
                     <img alt="Turning Technologies Logo" 
-                        src="http://www.turningtechnologies.com/images/turningtech_logo.png" />
+                        src="turningtech_logo.png" />
                 </h1>
             </div>
             <div class="loginDisplay">
@@ -31,7 +39,15 @@
                 </asp:LoginView>
             </div>
             <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal" 
+                    BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" 
+                    Font-Size="0.8em" ForeColor="#666666" Height="68px" StaticSubMenuIndent="10px" 
+                    Width="235px">
+                    <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
                         <asp:MenuItem Text="Student" Value="Student" NavigateUrl="~/Students/Default.aspx">
@@ -52,6 +68,12 @@
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
                     </Items>
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#1C5E55" />
+                    <StaticItemTemplate>
+                        <%# Eval("Text") %>
+                    </StaticItemTemplate>
                 </asp:Menu>
             </div>
         </div>
